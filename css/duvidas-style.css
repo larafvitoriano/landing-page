@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #e24816;
+}
+
+.logo {
+    padding-top: 12px;
+}
+
+.navbar {
+    background-color: #ECF4FF;
+    padding: 20px;
+}
+
+.navbar a:hover {
+    background-color: #ECF4FF;
+    opacity: 0.5;
+    transition: 0.7s linear;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+ul a {
+    text-decoration: none;
+    box-sizing: border-box;
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+    padding-right: 80px;
+    font-size: 15px;
+}
+
+.content { 
+    text-align: center;
+    margin: 250px;
+}
+
+.button {
+    background-color: #e24816;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    margin: 25px;
+    letter-spacing: 8px;
+    font-weight: bold;
+    font-size: 24px;
+    opacity: 0.9;
+}
+
+.section-light {
+    background-color: #ECF4FF;
+    text-align: center;
+    padding: 50px 80px;
+    color: #666;
+    min-width: 300px;
+    max-width: 2500px;
+    margin: auto;
+}
+
+input {
+    border-radius: 5px;
+}
+
+input label {
+    display: block;
+}
+
+input[type="email"], input[type="text"], input[type="number"] {
+    padding: 0.7em;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 2px;
+    margin-top: 2px;
+}
+
+.botao {
+    background-color: #e24816;
+    color: #fff;
+    border: 0;
+    box-shadow: 2px 2px 2px;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+textarea {
+    resize: none;
+    padding: 0.7em;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 2px;
+}
+
+.rodape { 
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+    bottom: 0;
+    padding: 8px;
+    font-size: 12px;
+    display: block;
+    max-width: 100%;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}

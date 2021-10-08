@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/duvidas-style.css">
+    <title>Grupo FCamara - Fale Conosco </title>
+</head>
+
+<body>
+    <header>
+        <section class="navbar">
+            <nav>
+                <a href="index.html" target="_self"><img src="../imagens/logo.png" class="logo"
+                        alt="Logo do Grupo FCamara"></a>
+
+                <ul>
+                    <a href="index.html" target="_self">
+                        <li>Home</li>
+                    </a>
+                    <a href="orientacoes.html" target="_self">
+                        <li>Orientações</li>
+                    </a>
+                    <a href="precaucoes.html" target="_self">
+                        <li>Precauções</li>
+                    </a>
+                    <a href="duvidas.html" target="_self">
+                        <li>Dúvidas?</li>
+                    </a>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main class="content">
+        <button class="button"> Fale Conosco </button>
+    </main>
+
+    <section class="section-light">
+        <h1> Fale Conosco </h1>
+        <p> Para maiores esclarecimentos, preencha o formulário abaixo com o assunto e os seus dados para
+            contato, que retornaremos o mais breve possível. </p>
+        <p> Se preferir, envie um e-mail para contato@fcamara.com.br ou ligue para (11) 3158-1047. </p>
+
+        <form>
+            <label for="nome">Seu nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="telefone">Telefone:</label><br>
+            <input type="number" id="telefone" name="telefone" required><br><br>
+
+            <label for="solicitacao">Como podemos te ajudar?</label><br>
+            <textarea id="solicitacao" name="solicitacao" rows="4" cols="40"></textarea><br>
+
+            <button class="botao" type="submit" disabled>Enviar</button>
+        </form>
+
+    </section>
+
+    <footer class="rodape">
+        &copy; 2021 - Desenvolvido por Lara Fernanda
+    </footer>
+
+</body>
+
+</html>
